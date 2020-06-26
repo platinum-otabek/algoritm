@@ -1,0 +1,186 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(content='width=device-width, initial-scale=1.0', name='viewport')
+  title Algoritm
+  meta(content='', name='descriptison')
+  meta(content='', name='keywords')
+  // Favicons
+  //link(href='images/img/favicon.png', rel='icon')
+  link(href='images/img/apple-touch-icon.png', rel='apple-touch-icon')
+  // Google Fonts
+  link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i', rel='stylesheet')
+  // Vendor CSS Files
+  link(href='stylesheets/vendor/bootstrap/css/bootstrap.min.css', rel='stylesheet')
+  link(href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
+  link(href='stylesheets/vendor/icofont/icofont.min.css', rel='stylesheet')
+  link(href='stylesheets/vendor/boxicons/css/boxicons.min.css', rel='stylesheet')
+  link(href='stylesheets/vendor/owl.carousel/assets/owl.carousel.min.css', rel='stylesheet')
+  link(href='stylesheets/vendor/venobox/venobox.css', rel='stylesheet')
+  link(href='stylesheets/vendor/aos/aos.css', rel='stylesheet')
+
+  // Template Main CSS File
+  link(href='stylesheets/style.css', rel='stylesheet')
+  //
+
+body
+  // ======= Header =======
+  header#header.fixed-top
+    .container-fluid
+      .row.justify-content-center
+        .col-xl-9.d-flex.align-items-center
+          h1.logo.mr-auto
+            a(href='/') Algoritm
+          // Uncomment below if you prefer to use an image logo
+          // <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+          nav.nav-menu.d-none.d-lg-block
+            ul
+              li.active
+                a(href='/') Bosh sahifa
+              li
+                a(href='#about') Biz haqimizda
+              li
+                a(href='#services') Xizmatlarimiz
+              //li
+              //  a(href='#portfolio') Portfolio
+              //li
+              //  a(href='#hero') Team
+              //li.drop-down
+              //  a(href='') Drop Down
+              //  ul
+              //    li
+              //      a(href='#') Drop Down 1
+                  //li.drop-down
+                  //  a(href='#') Deep Drop Down
+                    //ul
+                    //  li
+                    //    a(href='#') Deep Drop Down 1
+                    //  li
+                    //    a(href='#') Deep Drop Down 2
+                    //  li
+                    //    a(href='#') Deep Drop Down 3
+                    //  li
+                    //    a(href='#') Deep Drop Down 4
+                    //  li
+                    //    a(href='#') Deep Drop Down 5
+                  li
+                    a(href='#') Drop Down 2
+                  li
+                    a(href='#') Drop Down 3
+                  li
+                    a(href='#') Drop Down 4
+              li
+                a(href='#contact') Bog`lanish
+          // .nav-menu
+          a.get-started-btn.scrollto(href='#about') Boshlamoq
+    // End Header
+  block content
+
+  block footer
+    // ======= Footer =======
+    footer#footer
+      .footer-top
+        .container
+          .row
+            .col-lg-3.col-md-6.footer-contact
+              h3 Algoritm
+              p
+                | Toshkent shahar
+                br
+                |Sergeli tuman
+                br
+
+                br
+                br
+                strong Phone:
+                |  +99894 639 3335
+
+
+                br
+                strong Telegram:
+                a.text-white(href='https://t.me/uz_innovator') Otabek
+                br
+            .col-lg-2.col-md-6.footer-links
+              h4 Foydali sahifalar
+              ul
+                li
+                  i.bx.bx-chevron-right
+                  a(href='/') Bosh sahifa
+                li
+                  i.bx.bx-chevron-right
+                  a(href='#about') Biz haqimizda
+                li
+                  i.bx.bx-chevron-right
+                  a(href='#services') Xizmatlarimiz
+                //li
+                //  i.bx.bx-chevron-right
+                //  a(href='#') Terms of service
+                li
+                  i.bx.bx-chevron-right
+                  a(href='#') Privacy policy
+            .col-lg-3.col-md-6.footer-links
+              h4 Xizmatlarimiz
+              ul
+                li
+                  i.bx.bx-chevron-right
+                  a(href='#') Web Design
+                li
+                  i.bx.bx-chevron-right
+                  a(href='#') Web Development
+                li
+                  i.bx.bx-chevron-right
+                  a(href='#') Grafik dizayn
+                li
+                  i.bx.bx-chevron-right
+                  a(href='#') Marketing
+
+            .col-lg-4.col-md-6.footer-newsletter
+              h4 Bizga qo'shiling
+              //p Tamen quem nulla quae legam multos aute sint culpa legam noster magna
+              form(action='/', method='get')
+                input(type='email', name='email')
+                input(type='submit', value='Subscribe')
+      .container
+        .copyright-wrap.d-md-flex.py-4
+          .mr-md-auto.text-center.text-md-left
+            .copyright
+              | © Copyright
+              strong
+                span Algoritm
+              | . Hamma xizmatlar litsenziyalangan
+            .credits
+              // All the links in the footer should remain intact.
+              // You can delete the links only if you purchased the pro version.
+              // Licensing information: https://bootstrapmade.com/license/
+              // Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
+              //| Designed by
+              //a(href='https://bootstrapmade.com/') BootstrapMade
+          .social-links.text-center.text-md-right.pt-3.pt-md-0
+            a.twitter(href='#')
+              i.bx.bxl-twitter
+            a.facebook(href='#')
+              i.bx.bxl-facebook
+            a.instagram(href='#')
+              i.bx.bxl-instagram
+            a.google-plus(href='#')
+              i.bx.bxl-skype
+            a.linkedin(href='#')
+              i.bx.bxl-linkedin
+    // End Footer
+    a.back-to-top(href='#')
+      i.icofont-simple-up
+    #preloader
+    // Vendor JS Files
+    script(src='stylesheets/vendor/jquery/jquery.min.js')
+    script(src='stylesheets/vendor/bootstrap/js/bootstrap.bundle.min.js')
+    script(src='stylesheets/vendor/jquery.easing/jquery.easing.min.js')
+    script(src='stylesheets/vendor/php-email-form/validate.js')
+    script(src='stylesheets/vendor/waypoints/jquery.waypoints.min.js')
+    script(src='stylesheets/vendor/counterup/counterup.min.js')
+    script(src='stylesheets/vendor/owl.carousel/owl.carousel.min.js')
+    script(src='stylesheets/vendor/isotope-layout/isotope.pkgd.min.js')
+    script(src='stylesheets/vendor/venobox/venobox.min.js')
+    script(src='stylesheets/vendor/aos/aos.js')
+    // Template Main JS File
+    script(src='javascripts/main.js')
+
